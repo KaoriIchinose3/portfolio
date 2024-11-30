@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/* =======================================================
+ *   ページ全体
+ * ======================================================= */
+
+/* =======================================================
+ *   ヘッダー
+ * ======================================================= */
+
+.demo {
+    color: #FF0000;
+}
+
+
+#title {
+  font-size: 30px;
+	/* 水平方向の中央揃え */
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* =======================================================
+ *   メインコンテンツ
+ * ======================================================= */
+
+body {
+	background-size: contain;
+	background-color: #A0F2FF;
+}
+
+h3 {
+	text-align: center;
+	}
+
+// Colours
+$green: #84AD47;
+$red: #AD4747;
+$blue: #4784AD;
+
+form {
+  width: 300px;
+  margin: 10% auto;
+  min-width: 9rem;
+}
+  
+input {
+  position: relative;
+
+   top: 0px;
+   left: 50%;
+   transform: translateX(-50%);
+
+  float: center;
+  width: 300px;
+  border: none;
+  margin: 0.5rem 0.5rem;
+  padding: 0.7rem 1rem;
+  border-radius: 0.7rem;//入力フォームの角の丸み
+  background: darken(#f9f9f9, 10%);
+  color: darken(#f9f9f9, 50%);
+  
+  &[type=button] {
+    background: #3879D9;
+    color: #fff;
+    width: auto;
+    float: center;
+  }
+
+  &::placeholder {
+    color: darken(#f9f9f9, 100%);
+  }
+
+  &.error {
+    background: $red;
+    color: #fff;
+    &::placeholder {
+      color: darken($red, 60%);
+    }
+  }
+}
+
+
+
+
+// Generic Styles ;)
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+body {
+  padding: 2rem;
+  color: #2f2f2f;
+  font-family: 'Open Sans';
+}
+
+
+
+
+
+/* =======================================================
+ *   フッター
+ * ======================================================= */
+
+.copyright {
+	text-align: center;
+	position: relative;
+	bottom: 0px;
+	padding-bottom: 0px;
+	background: white;
+}
+
+/* =======================================================
+ *   スペシャル
+ * ======================================================= */

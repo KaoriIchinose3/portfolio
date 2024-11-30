@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/* =======================================================
+ *   ページ全体
+ * ======================================================= */
+
+/* =======================================================
+ *   ヘッダー
+ * ======================================================= */
+
+#toppage {
+  font-size: 40px;
+	/* 水平方向の中央揃え */
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* =======================================================
+ *   メインコンテンツ
+ * ======================================================= */
+
+
+/*
+.bg_test-text {
+    border:  solid 1px;                             /* 枠線指定 */
+    display:  inline-block;                         /* インラインブロックにする */
+    padding: 10px 20px;                             /* 余白指定 */
+    background-color: rgba(255, 255, 255, 0.7);     /* 背景色指定 */
+}
+*/
+
+.bg_test {
+    text-align:  center;    /* 文字中央寄せ */
+    padding:  150px;        /* 余白指定 */
+    border: solid 2px;      /* 枠線指定 */
+}
+
+body {
+	background-size: contain;
+	background-color: #A0F2FF
+}
+
+
+
+.container {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.play {
+	margin: 20px;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+
+.monku {
+	margin: 90px;
+	text-align: center;
+	font-size: 35px;
+/*	font-weight: bolder;*/
+	display: flex;
+	justify-content: center;
+}	
+
+.setsumei1 {
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+/* =======================================================
+ *   フッター
+ * ======================================================= */
+
+.copyright {
+	text-align: center;
+	position: relative;
+	bottom: 0px;
+	padding-bottom: 0px;
+	background: white;
+}
+
+/* =======================================================
+ *   スペシャル
+ * ======================================================= */
+

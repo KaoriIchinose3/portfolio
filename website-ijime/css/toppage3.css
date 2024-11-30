@@ -1,0 +1,214 @@
+
+@charset "UTF-8";
+
+/* =======================================================
+ *   ページ全体
+ * ======================================================= */
+
+/* 背景色設定 */
+body {
+	background-size: contain;
+	background-color: #A0F2FF
+}
+
+/* =======================================================
+ *   ヘッダー
+ * ======================================================= */
+
+/* 文字のフォント */
+/* トップページ */
+.demo {
+    color: #FF0000;
+}
+
+#toppage {
+  font-size: 40px;
+	/* 水平方向の中央揃え */
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* =======================================================
+ *   メインコンテンツ
+ * ======================================================= */
+
+/* 検索窓 */
+.search_container{
+   position: absolute;
+   top: 150px;
+   left: 50%;
+   transform: translateX(-50%);
+  box-sizing: border-box;
+  display: block;
+  padding: 20px 10px;
+  border-radius: 40px;
+  height: 4em;
+  width: 400px;
+  overflow: hidden;
+  background: #3879D9;
+      /*コレ*/display: flex;
+    /*コレ*/justify-content: center;
+    /*コレ*/align-items: center;
+}
+.search_container input[type="text"]{
+  border: none;
+  height: 1.15em;
+  background: #3879D9;
+  font-size: 1.3em;
+}
+.search_container input[type="text"]:focus {
+  outline: 0;
+}
+.search_container input[type="submit"]{
+  cursor: pointer;
+  font-family: FontAwesome;
+  font-size: 1.3em;
+  border: none;
+  background: none;
+  color: #fff;
+  position: absolute;
+  height: 2.5em;
+  right: 8px;
+  top: 6px;
+  outline : none;
+}
+.search_container ::-webkit-input-placeholder {
+  color: #fff;
+}
+
+/* 投稿ボタン */
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+  position: absolute;
+  top: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  display: block;
+  padding: 20px 10px;
+  border-radius: 40px;
+  height: 3em;
+  width: 400px;
+  overflow: hidden;
+    /*コレ*/display: flex;
+    /*コレ*/justify-content: center;
+    /*コレ*/align-items: center;
+  text-decoration: none;
+}
+
+a.btn--radius {
+   border-radius: 100vh;
+}
+
+.btn--orange {
+  font-family: FontAwesome;
+  font-size: 1.3em;
+  border: none;
+  background: none;
+  color: #fff;
+  position: absolute;
+  height: 2.5em;
+  right: 8px;
+  top: 6px;
+  outline : none;
+}
+
+/* 文字のフォント */
+
+.login {
+	font-family: 'Noto Sans JP', sans-serif; /* Light 300 */
+	font-weight: 300;
+	text-align: center;
+	position: relative; 
+	font-size: 18px;
+	height: 2.5em;
+	left: 0%;
+	top: 90px;
+	outline : none;
+	margin: 110px;
+}
+
+
+/* 準タイトル */
+.monku {
+	margin: 150px;
+	text-align: center;
+	font-size: 35px;
+	display: flex;
+	justify-content: center;
+}
+
+.hukudai {
+	font-family: 'Noto Sans JP', sans-serif; /* Medium 500 */
+	font-weight: 500;
+	font-size: 21px;
+	}
+
+/* 太字 */
+.bold {
+	font-family: 'Noto Sans JP', sans-serif; /* Medium 500 */
+	font-weight: 500;
+	text-align: center;
+	position: relative;
+	font-size: 20px;
+
+}
+
+/* 平文 */
+
+.setsumei1 {
+	font-family: 'Noto Sans JP', sans-serif; /* Light 300 */
+	font-weight: 300;
+	text-align: center;
+	position: relative;
+	font-size: 20px;
+}
+
+.flex{
+      display: flex;
+      flex-wrap: wrap;
+ justify-content: center;
+    } 
+
+.item{
+      display: inline-block;
+      width:500px;
+    }
+
+.setsumei2 {
+	font-family: 'Noto Sans JP', sans-serif; /* Light 300 */
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.setsumei3 {
+		width:50px;
+		height:100px;
+		}
+
+.setsumei4 {
+	font-family: 'Noto Sans JP', sans-serif; /* Light 300 */
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* =======================================================
+ *   フッター
+ * ======================================================= */
+
+.copyright {
+	text-align: center;
+	position: relative;
+	bottom: 0px;
+	padding-bottom: 0px;
+	background: white;
+}
+
+/* =======================================================
+ *   スペシャル
+ * ======================================================= */

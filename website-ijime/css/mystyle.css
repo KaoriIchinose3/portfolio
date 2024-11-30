@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* =======================================================
+ *   ページ全体
+ * ======================================================= */
+
+img { border: 0; }
+
+body, nav, section, header, main, footer, h1, h2, p, ul, li, dl, dt, dd, div {
+  margin: 10;
+  padding: 10;
+}
+
+body {
+  color: #000;
+  background: #A0F2FF;
+}
+
+/*background-attachment: scroll, local;*/
+
+
+/* =======================================================
+ *   ヘッダー
+ * ======================================================= */
+
+body #toppage {
+  margin: 50px 0 40px;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* =======================================================
+ *   メインコンテンツ
+ * ======================================================= */
+
+/* =======================================================
+ *   フッター
+ * ======================================================= */
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  margin: 40px 0;
+}
+
+footer #back2top {
+  padding: 0.6rem 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #4F97FF;
+  background: #4F97FF;
+}
+
+footer #back2top a {
+  text-decoration: none;
+  color: black;
+}
+
+/* =======================================================
+ *   スペシャル
+ * ======================================================= */
+

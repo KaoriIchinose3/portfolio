@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/* =======================================================
+ *   ページ全体
+ * ======================================================= */
+
+/* =======================================================
+ *   ヘッダー
+ * ======================================================= */
+
+
+/* =======================================================
+ *   メインコンテンツ
+ * ======================================================= */
+
+.bg_test {
+    text-align:  center;    /* 文字中央寄せ */
+    padding:  150px;        /* 余白指定 */
+    border: solid 2px;      /* 枠線指定 */
+}
+
+body {
+	background-size: contain;
+	background-color: #A0F2FF
+}
+
+#setsumei2 {
+  padding: 20px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.table1 {
+	margin-left: auto;
+	margin-right: auto;
+ 	width: 45em;
+ 	text-align: center;
+ 	border-collapse: collapse;
+ 	border-spacing: 0;
+}
+.table1 th {
+	padding: 10px;
+	background: #e9faf9;
+	border: solid 1px #778ca3;
+}
+.table1 td {
+	padding: 10px;
+	background: #e9faf9;
+	border: solid 1px #778ca3;
+}
+
+/* =======================================================
+ *   フッター
+ * ======================================================= */
+
+.copyright {
+	text-align: center;
+	position: relative;
+	bottom: 0px;
+	padding-bottom: 0px;
+	background: white;
+}
+
+/* =======================================================
+ *   スペシャル
+ * ======================================================= */
+
